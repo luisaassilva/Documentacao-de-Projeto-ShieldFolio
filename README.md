@@ -1,6 +1,7 @@
 # ShieldFolio
 
-Link do pdf (Trabalho2-Documentacao_de_Projeto.pdf)
+Link do pdf 
+https://github.com/luisaassilva/Documentacao-de-Projeto-ShieldFolio/blob/main/Trabalho2-Documentacao_de_Projeto.pdf
 
 ## Documentação de Projeto
 
