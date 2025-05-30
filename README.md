@@ -60,18 +60,37 @@ Atualmente, artistas digitais enfrentam desafios significativos ao compartilhar 
 
 #### Casos de Uso
 
-* UC-01 -> Como usuário gostaria de me cadastrar para que tenha acesso a novas funcionalidades
-* UC-02 -> Como artista gostaria de Adicionar tags às imagens para que facilite a pesquisa de minhas obras
-* UC-03 -> Como artista gostaria de me criar pasta de portifólio para facilitar a organização de minha obras
-* UC-04 -> Como artista gostaria de compartilhar em redes sociais para centralizar como poderia compartilhar minhas obras 
-* UC-05 -> Como artista gostaria que minha obrar ao ser publicada já esteja com proteção Anti-Ia para que não seja necessário utilizar outro software que faça isso
-* UC-06 -> Como artista gostaria de publicar imagens com senhas de privacidade para que consiga filtrar a visualização de certas obras através de apenas seguidores visualizarem ou apenas pessoas com senhas corretas
-* UC-07 -> Como visitante gostaria de visualizar imagens públicas para que o artista não seja prejudicado de apenas usuários com senha possa visualiza-la
-* UC-08 -> Como administrador gostaria gerenciar usuários para poder excluir contas
-* UC-09 -> Como administrador gostaria de gerenciar denúncias para que seja possível verificar se a denúncia esta correta ou não.
-* UC-10 -> Como administrador gostaria de remover conteúdos que infringem regras da comunidade para que a comunidade esteja sempre dentro das regras
-* UC-11 -> Como usuário logado gostaria de favoritar uma imagem para salvá-la para que não precise procurar ela facilitando o acesso a obras que gostei
-* UC-12 -> Como usuário logado gostaria de seguir meu artistas preferidos para que facilite minha busca pelos artistas que gosto
-* UC-12 -> Como usuário logado dar likes em imagens para que o artista compreenda quando gosto de uma obra
+- UC-01 -> Curtir uma imagem
+- UC-02 -> Publicar uma imagem criptografada anti-ia
+- UC-03 -> compartilhar em outras redes sociais
+- UC-04 -> Fazer login
+
+#### Histórias de Usuário
 
 
+*  Como usuário gostaria de me cadastrar para que tenha acesso a novas funcionalidades
+* Como artista gostaria de Adicionar tags às imagens para que facilite a pesquisa de minhas obras
+* Como artista gostaria de me criar pasta de portifólio para facilitar a organização de minha obras
+* Como artista gostaria de compartilhar em redes sociais para centralizar como poderia compartilhar minhas obras 
+* Como artista gostaria que minha obrar ao ser publicada já esteja com proteção Anti-Ia para que não seja necessário utilizar outro software que faça isso
+* Como artista gostaria de publicar imagens com senhas de privacidade para que consiga filtrar a visualização de certas obras através de apenas seguidores visualizarem ou apenas pessoas com senhas corretas
+* Como visitante gostaria de visualizar imagens públicas para que o artista não seja prejudicado de apenas usuários com senha possa visualiza-la
+* Como administrador gostaria gerenciar usuários para poder excluir contas
+* Como administrador gostaria de gerenciar denúncias para que seja possível verificar se a denúncia esta correta ou não.
+* Como administrador gostaria de remover conteúdos que infringem regras da comunidade para que a comunidade esteja sempre dentro das regras
+* Como usuário logado gostaria de favoritar uma imagem para salvá-la para que não precise procurar ela facilitando o acesso a obras que gostei
+* Como usuário logado gostaria de seguir meu artistas preferidos para que facilite minha busca pelos artistas que gosto
+* Como usuário logado dar likes em imagens para que o artista compreenda quando gosto de uma obra
+
+#### Diagrama de Casos de Uso
+
+
+### 2.3 Diagrama de Sequência do Sistema
+
+*  UC-01 -> Curtir uma imagem
+  
+| Contrato | Curtir Imagem | 
+| Operação |Curtir Imagem(idImagem)|
+| Referências cruzadas | Criação da imagem |
+| Pré-condições | 29/05/25 | Usuário deve estar autenticado. Imagem deve estar publicada.|
+| Pós-condições | 29/05/25 | Registro de curtida é salvo. Interface do usuário é atualizada para refletir o like. | 
