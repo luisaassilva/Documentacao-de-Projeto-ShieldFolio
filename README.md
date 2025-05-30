@@ -103,6 +103,7 @@ Este documento agrega:
 UC-03 -> compartilhar em outras redes sociais
 
 | Contrato | Compartilhar Imagem | 
+|------ | ---- |
 | Operação |Curtir Imagem(idImagem)|
 | Referências cruzadas | Caso de uso: Compartilhar imagem em redes sociais) |
 | Pré-condições | Usuário deve ser o proprietário da imagem.
@@ -113,6 +114,7 @@ Link é registrado no sistema para referência. |
 UC-02 -> Publicar uma imagem criptografada anti-ia
 
 | Contrato | Upload Imagem Com Protecao Anti-Ia | 
+|------ | ---- |
 | Operação |uploadImagem(titulo, descricao, arquivo, visibilidade,tag)|
 | Referências cruzadas | Caso de uso: Publicar imagem com proteção anti-IA |
 | Pré-condições |Usuário deve estar autenticado.Arquivo da imagem deve estar em formato permitido (ex: JPG, PNG).|
