@@ -1,6 +1,6 @@
 # ShieldFolio
 
-Link do pdf 
+Link do pdf:
 https://github.com/luisaassilva/Documentacao-de-Projeto-ShieldFolio/blob/main/Trabalho2-Documentacao_de_Projeto.pdf
 
 ## Documentação de Projeto
@@ -86,6 +86,7 @@ Atualmente, artistas digitais enfrentam desafios significativos ao compartilhar 
 
 #### Diagrama de Casos de Uso
 
+https://www.figma.com/board/3DdR3PsnCJdbrrkhUIsUJ7/Casos-de-uso?node-id=10-32&t=3JfnwN3BD1d06mAe-1
 
 ### 2.3 Diagrama de Sequência do Sistema
 
@@ -94,5 +95,106 @@ Atualmente, artistas digitais enfrentam desafios significativos ao compartilhar 
 | Contrato | Curtir Imagem | 
 | Operação |Curtir Imagem(idImagem)|
 | Referências cruzadas | Criação da imagem |
-| Pré-condições | 29/05/25 | Usuário deve estar autenticado. Imagem deve estar publicada.|
-| Pós-condições | 29/05/25 | Registro de curtida é salvo. Interface do usuário é atualizada para refletir o like. | 
+| Pré-condições | Usuário deve estar autenticado. Imagem deve estar publicada.|
+| Pós-condições | Registro de curtida é salvo. Interface do usuário é atualizada para refletir o like. | 
+
+UC-03 -> compartilhar em outras redes sociais
+
+| Contrato | Compartilhar Imagem | 
+| Operação |Curtir Imagem(idImagem)|
+| Referências cruzadas | Caso de uso: Compartilhar imagem em redes sociais) |
+| Pré-condições | Usuário deve ser o proprietário da imagem.
+Imagem deve estar publicada. |
+| Pós-condições |Imagem é compartilhada na plataforma externa (ex: Twitter).
+Link é registrado no sistema para referência. | 
+
+UC-02 -> Publicar uma imagem criptografada anti-ia
+
+| Contrato | Upload Imagem Com Protecao Anti-Ia | 
+| Operação |uploadImagem(titulo, descricao, arquivo, visibilidade,tag)|
+| Referências cruzadas | Caso de uso: Publicar imagem com proteção anti-IA |
+| Pré-condições |Usuário deve estar autenticado.Arquivo da imagem deve estar em formato permitido (ex: JPG, PNG).|
+| Pós-condições |Imagem é armazenada.Processo de proteção anti-IA é iniciado.Imagem entra em estado de "EmVerificacao".| 
+
+
+## 3. Modelos de Projeto
+
+### 3.1 Arquitetura
+
+O sistema utiliza arquitetura em três camadas: apresentação (web/mobile), lógica de negócios (API REST), e persistência (banco de dados relacional).
+
+
+#### Diagrama de Arquitetura
+
+![Diagrama de Arquitetura](Artifacts/png/Diagrama%20de%20arquitetura.png)
+
+https://www.figma.com/board/A0M4n1cyRtBpntkxBFxrY5/Untitled?node-id=3-514&t=yLX9AOOeoaYjw5hi-0
+
+### 3.2 Diagrama de Componentes e Implantação
+
+#### Diagrama de Componentes
+
+![Diagrama de Componentes](Artifacts/png/Diagrama%20de%20componentes.png)
+https://drive.google.com/file/d/1_HmtIm0f88raIqMKTg4cQpb2mlQPjSla/view?usp=sharing
+
+#### Diagrama de Implantação
+
+![Diagrama de implantação](Artifacts/png/Diagrama%20de%20implantacao.png)
+
+https://drive.google.com/file/d/1tAY6P2BuAYMF7_Lkhq9qQOAlhX4iC7IB/view?usp=sharing
+
+### 3.3 Diagrama de Classes
+
+#### Diagrama de Classes
+
+![Diagrama de Classes](Artifacts/png/Diagrama%20de%20classe.png)
+
+https://www.figma.com/board/9S20wgt44DWrbkuw7RYkZ6/Diagrama-de-classes?node-id=0-1&t=4LQo4K65N7HpPt3R-1
+
+### 3.4 Diagramas de Sequência
+
+
+https://www.figma.com/board/a8LFKb8JGQ0XGybPdQ2Upq/Diagrama-de-Sequ%C3%AAncia?node-id=0-1&t=b11VhL2rf8Y1sRjM-1
+
+### 3.5 Diagramas de Comunicação
+
+#### UC-01 -> Curtir uma imagem
+
+#### UC-03 -> compartilhar em outras redes sociais
+
+![Diagrama de comunicação](Artifacts/png/Diagrama%20de%20Comunicação.png)
+
+#### UC-02 -> Publicar uma imagem criptografada anti-ia
+
+![Diagrama de comunicação](Artifacts/png/Diagrama%20de%20Comunicação.png)
+
+https://www.figma.com/board/m2G4MhIc1jl4afz1cMdVjr/Diagrama-de-comunica%C3%A7%C3%A3o?node-id=0-1&t=R4oKE6CMyNgrtjIG-1
+
+### 3.6 Diagramas de Estados
+
+https://www.figma.com/board/YpwnL2NFg8CXFbUeJskif3/diagrama-de-estados?node-id=0-1&t=E2uBqikOeQzJmCwX-1
+
+### 4. Modelos de Dados
+
+#### Diagrama Banco de Dados:     
+
+https://www.figma.com/design/vCAcHnvebfEWufFsn161lK/Modelo-de-dados?node-id=3-728&t=nAHbJi1y4gbyth7o-1
+#### Estratégias de Mapeamento:
+
+##### Classes e Tabelas:
+Cada classe do sistema vira uma tabela. Seus atributos (textos, números, datas) viram colunas com tipos compatíveis no banco. 
+##### Relacionamentos: 
+* Um-para-muitos (ex: Usuario com várias Imagemns): A tabela Imagem terá um idUsuario para ligar ao usuário.
+* Muitos-para-muitos (ex: Imagem em várias Pastas): Usaremos uma tabela no meio (ImagemPasta) com o ID da imagem e o ID da pasta para conectá-los.
+##### Herança de Usuário:
+Tipos de usuário (comum, artista, admin) ficarão todos na tabela Usuario, com uma coluna tipo para diferenciá-los. 
+##### Ações do Usuário:
+Coisas como Compartilhamento e Curtida serão entidades atualizadas quando o usuário interagir. 
+##### Regras e Validações:
+Regras para manter os dados corretos (ex: e-mail único) serão definidas no banco e também no código do sistema. 
+##### Outros Pontos: 
+* Usaremos UUIDs como chaves primárias para garantir IDs sempre únicos.
+* Colocaremos índices em colunas muito pesquisadas (email, IDs) para buscas mais rápidas.
+* Imagens não ficarão no banco; guardaremos em um serviço externo (como AWS S3) e salvaremos apenas o link (caminho ou URL) no banco.
+
+
