@@ -94,6 +94,7 @@ Este documento agrega:
 *  UC-01 -> Curtir uma imagem
   
 | Contrato | Curtir Imagem | 
+|------ | ---- |
 | Operação |Curtir Imagem(idImagem)|
 | Referências cruzadas | Criação da imagem |
 | Pré-condições | Usuário deve estar autenticado. Imagem deve estar publicada.|
