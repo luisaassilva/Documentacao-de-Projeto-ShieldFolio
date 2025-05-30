@@ -86,8 +86,8 @@ Este documento agrega:
 
 #### Diagrama de Casos de Uso
 
-![Diagrama de Casos de uso](fotos e arquivos/Casosdeuso.png)
-https://www.figma.com/board/3DdR3PsnCJdbrrkhUIsUJ7/Casos-de-uso?node-id=10-32&t=3JfnwN3BD1d06mAe-1
+![Diagrama de Casos de uso](fotos_arquivos/CasosDeUso.png)
+![Diagrama de Casos de uso Link Figma](https://www.figma.com/board/3DdR3PsnCJdbrrkhUIsUJ7/Casos-de-uso?node-id=10-32&t=3JfnwN3BD1d06mAe-1)
 
 ### 2.3 Diagrama de Sequência do Sistema
 
@@ -127,59 +127,65 @@ O sistema utiliza arquitetura em três camadas: apresentação (web/mobile), ló
 
 #### Diagrama de Arquitetura
 
-![Diagrama de Arquitetura](Artifacts/png/Diagrama%20de%20arquitetura.png)
+![Diagrama de Arquitetura](fotos_arquivos/Untitled.png)
 
-https://www.figma.com/board/A0M4n1cyRtBpntkxBFxrY5/Untitled?node-id=3-514&t=yLX9AOOeoaYjw5hi-0
+![Diagrama de Arquitetura Link figma](https://www.figma.com/board/A0M4n1cyRtBpntkxBFxrY5/Untitled?node-id=3-514&t=yLX9AOOeoaYjw5hi-0)
 
 ### 3.2 Diagrama de Componentes e Implantação
 
 #### Diagrama de Componentes
 
-![Diagrama de Componentes](Artifacts/png/Diagrama%20de%20componentes.png)
-https://drive.google.com/file/d/1_HmtIm0f88raIqMKTg4cQpb2mlQPjSla/view?usp=sharing
+![Diagrama de Componentes](fotos_arquivos/DiagramaComponentes.drawio.png)
+![Diagrama de Componentes link drawio](https://drive.google.com/file/d/1_HmtIm0f88raIqMKTg4cQpb2mlQPjSla/view?usp=sharing)
+![Diagrama de Componentes arquivo](fotos_arquivos/DiagramaComponentes.drawio)
 
 #### Diagrama de Implantação
 
-![Diagrama de implantação](Artifacts/png/Diagrama%20de%20implantacao.png)
-
-https://drive.google.com/file/d/1tAY6P2BuAYMF7_Lkhq9qQOAlhX4iC7IB/view?usp=sharing
+![Diagrama de implantação](fotos_arquivos/DiagramaImplantação.drawio.png)
+![Diagrama de implantação Link DrawIo](https://drive.google.com/file/d/1tAY6P2BuAYMF7_Lkhq9qQOAlhX4iC7IB/view?usp=sharing)
+![Diagrama de implantação arquivo drawio](fotos_arquivos/DiagramaImplantação.drawio)
 
 ### 3.3 Diagrama de Classes
 
 #### Diagrama de Classes
 
-![Diagrama de Classes](Artifacts/png/Diagrama%20de%20classe.png)
+![Diagrama de Classes](fotos_arquivos/DiagramaDeClasses.png)
 
-https://www.figma.com/board/9S20wgt44DWrbkuw7RYkZ6/Diagrama-de-classes?node-id=0-1&t=4LQo4K65N7HpPt3R-1
+![Diagrama de Classes Link Figma](https://www.figma.com/board/9S20wgt44DWrbkuw7RYkZ6/Diagrama-de-classes?node-id=0-1&t=4LQo4K65N7HpPt3R-1)
 
 ### 3.4 Diagramas de Sequência
 
-
-https://www.figma.com/board/a8LFKb8JGQ0XGybPdQ2Upq/Diagrama-de-Sequ%C3%AAncia?node-id=0-1&t=b11VhL2rf8Y1sRjM-1
+![Diagrama de Sequência](fotos_arquivos/DiagramaDeSequencia.png)
+![Diagrama de Sequência Link Figma](https://www.figma.com/board/a8LFKb8JGQ0XGybPdQ2Upq/Diagrama-de-Sequ%C3%AAncia?node-id=0-1&t=b11VhL2rf8Y1sRjM-1)
 
 ### 3.5 Diagramas de Comunicação
 
 #### UC-01 -> Curtir uma imagem
+![Diagrama de comunicação UC-01](fotos_arquivos/Diagramas1.png)
 
 #### UC-03 -> compartilhar em outras redes sociais
 
-![Diagrama de comunicação](Artifacts/png/Diagrama%20de%20Comunicação.png)
+![Diagrama de comunicação UC-03](fotos_arquivos/Diagramas2.png)
 
 #### UC-02 -> Publicar uma imagem criptografada anti-ia
 
-![Diagrama de comunicação](Artifacts/png/Diagrama%20de%20Comunicação.png)
+![Diagrama de comunicação UC-02](fotos_arquivos/Diagramas3.png)
 
-https://www.figma.com/board/m2G4MhIc1jl4afz1cMdVjr/Diagrama-de-comunica%C3%A7%C3%A3o?node-id=0-1&t=R4oKE6CMyNgrtjIG-1
+![Link de todos diagrama de comunicação no figma](https://www.figma.com/board/m2G4MhIc1jl4afz1cMdVjr/Diagrama-de-comunica%C3%A7%C3%A3o?node-id=0-1&t=R4oKE6CMyNgrtjIG-1)
 
 ### 3.6 Diagramas de Estados
 
-https://www.figma.com/board/YpwnL2NFg8CXFbUeJskif3/diagrama-de-estados?node-id=0-1&t=E2uBqikOeQzJmCwX-1
+![Diagrama de Estados](fotos_arquivos/DiagramaDeEstados.png)
+![Diagrama de Estados Link Figma](https://www.figma.com/board/YpwnL2NFg8CXFbUeJskif3/diagrama-de-estados?node-id=0-1&t=E2uBqikOeQzJmCwX-1)
 
 ### 4. Modelos de Dados
 
+
 #### Diagrama Banco de Dados:     
 
-https://www.figma.com/design/vCAcHnvebfEWufFsn161lK/Modelo-de-dados?node-id=3-728&t=nAHbJi1y4gbyth7o-1
+![Diagrama de banco de dados](fotos_arquivos/ModelodeDados.png)
+
+![Diagrama de banco de dados link figma:](//www.figma.com/design/vCAcHnvebfEWufFsn161lK/Modelo-de-dados?node-id=3-728&t=nAHbJi1y4gbyth7o-1)
 #### Estratégias de Mapeamento:
 
 ##### Classes e Tabelas:
