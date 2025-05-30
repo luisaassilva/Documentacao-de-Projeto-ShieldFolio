@@ -86,6 +86,7 @@ Este documento agrega:
 
 #### Diagrama de Casos de Uso
 
+![Diagrama de Casos de uso](fotos e arquivos/Casosdeuso.png)
 https://www.figma.com/board/3DdR3PsnCJdbrrkhUIsUJ7/Casos-de-uso?node-id=10-32&t=3JfnwN3BD1d06mAe-1
 
 ### 2.3 Diagrama de Sequência do Sistema
