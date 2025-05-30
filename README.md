@@ -1,7 +1,7 @@
 # ShieldFolio
 
 Link do pdf:
-https://github.com/luisaassilva/Documentacao-de-Projeto-ShieldFolio/blob/main/Trabalho2-Documentacao_de_Projeto.pdf
+https://github.com/luisaassilva/Documentacao-de-Projeto-ShieldFolio/blob/1a24a6cfe4e6d561835fd227717ab1225463e7f7/Trabalho%202%20-%20Documentacao_de_Projeto_ShildFolio.pdf
 
 ## Documentação de Projeto
 
@@ -41,9 +41,9 @@ Data da criação 20-05-2025
 ## 1. Introdução
 Este documento agrega: 
 1) a elaboração e revisão de modelos de domínio
-2) 2) modelos de projeto para o sistema ShieldFolio.
-   3) 
-Atualmente, artistas digitais enfrentam desafios significativos ao compartilhar suas obras online, especialmente em relação à proteção contra o uso não autorizado por Inteligência Artificial. Muitos sistemas de portfólio não oferecem mecanismos eficazes de proteção ou controle de privacidade, deixando as imagens vulneráveis a uso indevido, cópia ou extração por modelos de IA generativa. O sistema proposto é uma plataforma web voltada à exposição e gerenciamento de portfólios artísticos, com foco em segurança de imagens, organização personalizada e integração social.
+2) modelos de projeto para o sistema ShieldFolio.
+
+* Atualmente, artistas digitais enfrentam desafios significativos ao compartilhar suas obras online, especialmente em relação à proteção contra o uso não autorizado por Inteligência Artificial. Muitos sistemas de portfólio não oferecem mecanismos eficazes de proteção ou controle de privacidade, deixando as imagens vulneráveis a uso indevido, cópia ou extração por modelos de IA generativa. O sistema proposto é uma plataforma web voltada à exposição e gerenciamento de portfólios artísticos, com foco em segurança de imagens, organização personalizada e integração social.
 
 
 ## 2. Modelos de Usuário e Requisitos              
